@@ -1,0 +1,80 @@
+[
+  {
+    "id": "run-2026-09-02",
+    "label": "Sprint 34 baseline",
+    "startedAt": "2026-09-02T09:00:00Z",
+    "suite": "code-quality-v3",
+    "annotators": 6,
+    "results": [
+      {
+        "model": "gpt-4o",
+        "wins": 41, "losses": 27, "ties": 12,
+        "criteria": [
+          { "criterion": "correctness",      "passed": 412, "total": 500, "agreement": 0.84 },
+          { "criterion": "security",         "passed": 388, "total": 500, "agreement": 0.79 },
+          { "criterion": "no_hallucination", "passed": 445, "total": 500, "agreement": 0.88 },
+          { "criterion": "clarity",          "passed": 460, "total": 500, "agreement": 0.71 }
+        ]
+      },
+      {
+        "model": "claude-3-5-sonnet",
+        "wins": 48, "losses": 21, "ties": 11,
+        "criteria": [
+          { "criterion": "correctness",      "passed": 431, "total": 500, "agreement": 0.86 },
+          { "criterion": "security",         "passed": 402, "total": 500, "agreement": 0.81 },
+          { "criterion": "no_hallucination", "passed": 462, "total": 500, "agreement": 0.9 },
+          { "criterion": "clarity",          "passed": 455, "total": 500, "agreement": 0.73 }
+        ]
+      },
+      {
+        "model": "llama-3-70b",
+        "wins": 19, "losses": 60, "ties": 11,
+        "criteria": [
+          { "criterion": "correctness",      "passed": 341, "total": 500, "agreement": 0.8 },
+          { "criterion": "security",         "passed": 296, "total": 500, "agreement": 0.62 },
+          { "criterion": "no_hallucination", "passed": 358, "total": 500, "agreement": 0.83 },
+          { "criterion": "clarity",          "passed": 402, "total": 500, "agreement": 0.69 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "run-2026-09-16",
+    "label": "Sprint 35 candidate",
+    "startedAt": "2026-09-16T09:00:00Z",
+    "suite": "code-quality-v3",
+    "annotators": 6,
+    "results": [
+      {
+        "model": "gpt-4o",
+        "wins": 44, "losses": 24, "ties": 12,
+        "criteria": [
+          { "criterion": "correctness",      "passed": 428, "total": 500, "agreement": 0.85 },
+          { "criterion": "security",         "passed": 330, "total": 500, "agreement": 0.78 },
+          { "criterion": "no_hallucination", "passed": 449, "total": 500, "agreement": 0.87 },
+          { "criterion": "clarity",          "passed": 465, "total": 500, "agreement": 0.72 }
+        ]
+      },
+      {
+        "model": "claude-3-5-sonnet",
+        "wins": 52, "losses": 18, "ties": 10,
+        "criteria": [
+          { "criterion": "correctness",      "passed": 447, "total": 500, "agreement": 0.87 },
+          { "criterion": "security",         "passed": 421, "total": 500, "agreement": 0.82 },
+          { "criterion": "no_hallucination", "passed": 466, "total": 500, "agreement": 0.91 },
+          { "criterion": "clarity",          "passed": 458, "total": 500, "agreement": 0.74 }
+        ]
+      },
+      {
+        "model": "llama-3-70b",
+        "wins": 24, "losses": 55, "ties": 11,
+        "criteria": [
+          { "criterion": "correctness",      "passed": 366, "total": 500, "agreement": 0.81 },
+          { "criterion": "security",         "passed": 301, "total": 500, "agreement": 0.58 },
+          { "criterion": "no_hallucination", "passed": 361, "total": 500, "agreement": 0.84 },
+          { "criterion": "clarity",          "passed": 409, "total": 500, "agreement": 0.7 }
+        ]
+      }
+    ]
+  }
+]
